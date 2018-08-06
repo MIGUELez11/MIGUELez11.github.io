@@ -1,0 +1,40 @@
+<!Doctype html>
+<html lang = "ES-ES">
+	<head>
+		<title>La chica más preciosa</title>
+		<link rel="icon" href="images/Nat.ico" type="image/x-icon">
+
+
+		
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body style="background-color:rgba(255,229,229,0.6)">
+		<iframe id="NavBar" src="/testing/NavBar.html" width="100%" style="border:none; position:sticky;top: 0px"></iframe>
+		<br><br><br><br>
+		<hr>
+		<br><br>
+		<h1>La mejor novia del mundo</h1>
+		<p style="font-size:125%">
+		Mi amor, hoy me parece irónico estar escribiendo este texto, pues mientras pienso en nuestra relación, en todo lo que hacemos juntos, me hace mucha ilusión, especialmente, ahora me estoy acordando de una película, que con toda la casualidad del mundo la estuvimos viendo el otro dia, esta es Forest Gump, en dicha película en cierta manera expresa que si te esfuerzas todo puede acabar como empezó, de una forma estupensa y genial a pesar de todas las dificultades del camino, me hace gracia pensar en ello, porque así es nuestra relación, comenzó genial, y poco a poco han ido surgiendo trabas, pero con todo el esfuerzo puesto por ambos nunca ha llegado a decaer, y por lo menos por mi parte amor, sigue siendo como el primer día, solo que te veo aún más guapa, estoy más seguro de todo y por supuesto, que te amo muchísimo más. <br><br>
+
+		Podría sonar a moco de pavo tal vez (wow, menuda expresión más rara verdad? XD) pero desde luego que esto es muchísimo, <b>han sido 6 meses</b>, 6 meses de <b>emoción, felicidad, alegría...</b>, pero sin duda han sido más que eso.<br>
+
+		Durante este tiempo, me ha alegrado mucho poder compartir de todo contigo, <b style="color:rgba(255,0,0,0.5)">hemos compartido emociones, sonrisas, risas, cosquillas, problemas ajenos, problemas propios, amigos, números, poemas, esposas, lágrimas, películas, masturbaciones, polvos llenos más de amor que de sexo, ganas locas, control, descontrol, sustos y percances</b> y sinceramente, esoty orgulloso de haber podido compratir todo eso contigo, porque, mi vida, te aseguro de que gracias a todos ellos me doy cuenta día a día de que cada vez te amo más y de que quiero hacer muchos más años a tu lado mi&nbsp<b><i style="color:aqua">bobba&nbsp</i><i style="color:gold">favorita</i></b>.<br><br>
+		
+		Si me hallase bajo un árbol, en aquel <i>locus amoenus</i>, huyendo del mundanal ruido, y de todos mis problemas, al menos ya se a quien dejaría venir conmigo, y si fuese más huida que no solo a un árbol, te <b>abriría las puertas de mi amado <b style="color:white">Plutón</b>, aunque no lo parezca, tiene sentido, y es algo que para mi significa mucho, y solo dejo entrar a la gente que más me importa. Y ahora mismo, con total sinceridad, solo iría allí contigo.<br><br>
+		
+		Pero voy a dejarme ya de gilipolleces, eres la mejor persona que jamás he tenido en mi vida, y con la que quiero algún día llegar a morir habiendo formado juntos una familia, porque eres muy especial, y consigues que ya las cosas de mi ex, por ejemplo, no me siente mal verlas, porque se que no la veré nunca más ni nada, y ya no eso, si no que gracias a ese pasado dejarlo atrás he conseguido la que es para mí, <span style="color:purple;font-size:155%"> la mejor persona del mundo.</span><br><br><br>
+		
+		<h1 style="font-family='Comic Sans';font-size:225%;color:rgba(0,255,35,1)">Por mucho más tiempo a tu lado, felices 6 meses</h1>
+		</p>
+		
+		<hr>
+		<img src="images/NatYYo.JPG" style="width:100%" alt="Ella y Yo"></img>
+		<br>
+		
+		<hr>
+	</body>
+
+</html>

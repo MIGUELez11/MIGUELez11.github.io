@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="EN-US">
+	<head>
+		<title>Hello World (CSS)</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<iframe id="NavBar" src="/testing/NavBar.html" width="100%" style="border:none; position:sticky;top: 0px"></iframe>
+		<br>
+		<h1>Hello World</h1>
+		
+		<p>This is a HTML programmed page by MIGUELez11 saying for first time Hello to the World in the ambit of CSS</p>
+			
+		<br><br>
+		<p onclick="displayf()" style="color:black">Iniciar Sesión</p>
+		
+
+		<form id="ActivateForm" style="display:none" method="post" action = "checkpass()">
+			<br>
+			<p>Inicio de sesión<br>
+			<input type="text" name="UserName" placeholder="User Name"><br>
+			<input type="password" name="pass" placeholder="Password"><br><br>
+			<input type="submit" value="submit"><br> 
+			</p>
+		</form>
+		
+		
+		 
+		<script>
+			function displayf()
+			{
+				var x = document.getElementById("ActivateForm");
+				if (x.style.display === "none") 
+				{
+					x.style.display = "block";
+				}
+				else
+				{
+					x.style.display = "none";
+				}
+			}
+			
+		</script>
+		<script>
+			function checkpass()
+			{
+				if (document.form.UserName.value == "MIGUELez11") && (document.form.pass.value == "prueba")
+				{
+					window.location.href = "/testing/NavBar.html";
+				}
+				
+				
+			}
+		</script>
+	</body>
+</html>  

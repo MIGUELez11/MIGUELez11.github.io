@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<header>
+		<title>NavBar</title>
+		<style>
+			ul
+			{
+				    list-style-type: none;
+					margin: 0 0 0 0;
+					padding: 0 0 0 0;
+					overflow: hidden;
+					background-color: #333;
+					position: fixed;
+					top: 0;
+					width: 100%;
+			}
+			
+			li
+			{
+				float: left;
+			}
+			
+			li a
+			{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration:  none;
+			}
+			
+			li a:hover:not(.active)
+			{
+				background-color: gray;
+			}
+			.active
+			{
+				background-color: green;
+			}
+			
+			#NavBar
+			{
+				border:none;
+				width:100%
+			}
+		</style>
+	</header>
+	
+	<body>
+		execute()
+		<ul>
+			<li> <a id="NavBar01" href="/testing/"target="_parent">HOME</a> </li>
+			<li> <a id="NavBar02" href="/testing/html/" target="_parent">Hello World(HTML)</a> </li>
+			<li> <a id="NavBar03" href="/testing/html/FirstHTMLPage" target="_parent">First Page</a> </li>
+			<li> <a id="NavBar04" href="/testing/html/Forms" target="_parent">Forms</a> </li>
+			<li> <a id="NavBar05" href="/testing/html/TeAmo" target="_parent">Medio Año</a> </li>
+			<li> <a id="NavBar06" href="/testing/CSS/HelloWorld" target="_parent">Hello World(CSS)</a> </li>
+			<li> <a id="NavBar07" href="/MIGUELez11games/games/JumpingGuy" target="_parent">Jumping Guy</a> </li>
+			
+			
+		</ul>
+		
+		<script>
+			localStorage.setItem("ParentWindowURL", window.parent.location);
+			url = localStorage.getItem("ParentWindowURL");
+			switch(url)
+			{
+				case "https://miguelez11.000webhostapp.com/testing/index.html":
+					document.getElementById('NavBar01').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/testing/html/index.html":
+					document.getElementById('NavBar02').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/testing/html/FirstHTMLPage.html":
+					document.getElementById('NavBar03').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/testing/html/Forms.html":
+					document.getElementById('NavBar04').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/testing/html/TeAmo.html":
+					document.getElementById('NavBar05').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/testing/CSS/HelloWorld.html":
+					document.getElementById('NavBar06').className = 'active';
+					break;
+				case "https://miguelez11.000webhostapp.com/MIGUELez11games/games/JumpingGuy/":
+					document.getElementById('NavBar07').className = 'active';
+					break;
+			}
+		</script>
+	</body> 
+</html>

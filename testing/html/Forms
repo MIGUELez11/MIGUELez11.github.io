@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="EN-US">
+	<head>
+		<title>HTML Forms </title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<iframe id="NavBar" src="/testing/NavBar.html" width="100%" style="border:none; position:sticky;top: 0px"></iframe>
+		<h1>Forms</h1>
+		<br>
+		<form action = "/testing/php/action_page.php" target = "_blank" method="post" style="display:block">
+			<fieldset>	
+				<legend>Name</legend>
+				First Name <br>
+				<input type="text" name="FirstName" placeholder="First Name"> <br>
+				Last Name <br>
+				<input type="text" name="LastName" placeholder="Last Name"> 
+			</fieldset>
+			<br><br>
+
+			<fieldset>
+				<legend>Gender</legend>
+				<input type="radio" name="Gender" value="Male" checked> Male <br>
+				<input type="radio" name="Gender" value="Female" > Female <br>
+				<input type="radio" name="Gender" value="Other" > Other 
+			</fieldset>
+			<br><br>
+			
+			<fieldset>
+				<legend>City</legend>
+				<select name="City"">
+					<option value="Madrid">Madrid</option>
+					<option value="Barcelona">Barcelona</option>
+					<option value="Cádiz">Cádiz</option>
+					<option value="Ohio">Ohio</option>
+					<option value="NYC">NYC</option>
+				</select>
+				
+			</fieldset>
+			<br><br>
+			
+			<fieldset>
+				<legend>Cars (hold ctrl for multiple)</legend>
+				<select name="cars" size="4" multiple>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="fiat">Fiat</option>
+					<option value="audi">Audi</option>
+				</select>
+				
+			</fieldset>
+			<br><br>
+
+			<textarea name="biography" rows ="20" style="width:50%" maxlength="400">Write Biography</textarea>
+			<br><br>
+
+			<input type="password" name="pass" required>
+			<input type="email" name="email">
+			<input type="file" name="myFile" multiple>
+			
+			
+			
+			<input type="color" name="color">
+			
+			
+			<br> <input type="submit" value="Send">
+			<input type="reset" value="Reset">
+			
+			
+			
+
+			
+		</form>
+	</body>
+	
+</html>
